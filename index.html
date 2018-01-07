@@ -142,12 +142,12 @@
   <div class="body"></div>
 		<div class="grad"></div>
 		<div class="header">
-			<div>Flyeurope.com<span>Staffing</span></div>
+			<div>Predator<span>Hub</span></div>
 		</div>
 		<br>
 		<form name="login">
 		<div class="login">
-				<input type="text" placeholder="Module" name="userid"><br>
+				<input type="text" placeholder="Module/Website" name="userid"><br>
 				<input type="password" placeholder="Pswd" name="pswrd"><br>
 				<input type="button" onclick="check(this.form)" value="Login"/>
 		</div>
@@ -164,6 +164,10 @@ function check(form)
     window.open('https://youtu.be/PgiQCipyr-0')
   }
  else
+ if(form.userid.value == "Stoke" && form.pswrd.value == "yhman")
+  {
+    window.open('https://sewic900.github.io')
+  }
  {
    alert("Please subscribe to my channel for more coding!")
   }
